@@ -15,7 +15,8 @@
     -webkit-font-smoothing: antialiased;
     padding: 2vh 10vw;
     background-color: #ffcd00;
-    font-family: 楷体;
+    font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #121314;
     perspective: 2500px;
   }
@@ -153,7 +154,9 @@
     min-height: 100vh;
     flex-direction: column;
     background-color: pink;
-    font-family: 楷体;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     perspective: 2500px;
   }
 
@@ -171,7 +174,7 @@
   }
 
   h1 {
-    font-size: 8em;
+    font-size: 6.5em;
     animation: 5s rotate ease-in-out infinite;
   }
 
