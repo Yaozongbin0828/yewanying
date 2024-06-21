@@ -15,4 +15,17 @@
     <h2>生日快乐!</h2>
     <h2>生日快乐!</h2>
   </body>
+  <script>
+    window.addEventListener("orientationchange", function () {
+      if (window.orientation === 90 || window.orientation === -90) {
+        // 设备处于横屏状态
+        document.body.style.backgroundColor = "lightblue"; // 举例：修改背景颜色
+        // 执行其他横屏时的样式修改操作
+      } else {
+        // 设备处于竖屏状态
+        document.body.style.backgroundColor = "lightgreen"; // 举例：修改背景颜色
+        // 执行其他竖屏时的样式修改操作
+      }
+    });
+  </script>
 </html>
